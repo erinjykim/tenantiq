@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'tenantiq'
+    static_configs:
+      - targets: ['tenantiq:8000']
+    metrics_path: '/metrics/'

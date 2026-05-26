@@ -1,0 +1,371 @@
+{
+  "summary": {
+    "total_questions": 25,
+    "answer_accuracy_pct": 88.0,
+    "citation_accuracy_pct": 80.0,
+    "hallucination_rate_pct": 0.0,
+    "latency_p50_seconds": 25.21,
+    "latency_p95_seconds": 28.57,
+    "category_breakdown": {
+      "security_deposit": "6/6 (100%)",
+      "eviction_and_notice": "5/5 (100%)",
+      "habitability_and_repairs": "2/2 (100%)",
+      "landlord_entry": "1/2 (50%)",
+      "tenant_retaliation": "1/2 (50%)",
+      "general_rights": "6/6 (100%)",
+      "lease_terms": "1/2 (50%)"
+    }
+  },
+  "results": [
+    {
+      "id": "SD001",
+      "category": "security_deposit",
+      "question": "How long does my landlord have to return my security deposit?",
+      "expected_answer": "30 days from lease termination or surrender of premises",
+      "actual_answer": "# How Long Your Landlord Has to Return Your Security Deposit\n\n**Your landlord has 30 days to return your security deposit**, but that countdown only begins after you provide your new address to them in writing.\n\n## What Pennsylvania Law Requires\n\nUnder PA Landlord Tenant Act Section 512, once your landlord has your written forwarding address, they must within 30 days either:\n- Return your full deposit, OR\n- Send you a written itemized list of damages and return the remaining balance\n\n**Important:** If you don't provide your forwarding address in writing, the law relieves your landlord from liability for the return requirements. This means the 30-day clock never starts.\n\n## Consequences If Your Landlord Misses the Deadline\n\n- If they fail to provide a written damage list within 30 days, they forfeit all rights to withhold any portion\n- If they wrongfully withhold your deposit past 30 days, they may owe you **double** the amount withheld\n\n## Your Next Steps\n\n1. **Send your forwarding address in writing immediately** if you haven't already\n2. **Keep proof**\u2014certified mail or email with delivery confirmation\n3. **Mark your calendar** 30 days from when they receive your address\n4. If they miss the deadline, send a written demand citing Section 512\n\n*Note: The law doesn't specify exactly what \"in writing\" means (email vs. certified mail), so using certified mail provides the strongest proof.*\n\n**I am not a lawyer and this is not legal advice.**",
+      "latency_seconds": 25.42,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states 30 days and cites Section 512; the additional details about written forwarding address requirement, itemized list, forfeiture of withholding rights, and double damages penalty are all accurate provisions from PA Landlord Tenant Act Section 512 that expand on the expected answer without inventing facts."
+      }
+    },
+    {
+      "id": "SD002",
+      "category": "security_deposit",
+      "question": "What happens if my landlord keeps my deposit without explanation?",
+      "expected_answer": "Landlord forfeits right to withhold and is liable for double the amount",
+      "actual_answer": "**Your landlord likely owes you your full deposit back\u2014and possibly double\u2014if they kept it without providing a written explanation of damages.**\n\nHere's what Pennsylvania law says:\n\n**The landlord must provide a written list of damages within 30 days of lease termination.** If they fail to do this, they \"forfeit all rights to withhold any portion of the deposit\" (PA Landlord Tenant Act Section 512). No explanation means no right to keep your money.\n\n**If 30+ days have passed**, the landlord may owe you double the amount wrongfully withheld under the same statute.\n\n**However, there's a critical catch:** Did you provide your landlord with your new address *in writing* when you moved out? The law states that failure to do so \"relieves the landlord from any liability under the security deposit return requirements.\" This is a significant loophole\u2014without written proof you gave a forwarding address, your landlord may have a complete defense.\n\n**Your next steps:**\n1. Confirm whether you provided a written forwarding address\n2. If yes, send a written demand letter requesting your deposit plus documentation of the 30-day violation\n3. If the landlord refuses, you can pursue this in small claims court (procedures not covered in my sources)\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 24.98,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states the landlord forfeits withholding rights and may owe double, accurately cites Section 512, and the forwarding address requirement is a real provision of PA security deposit law, not a hallucination."
+      }
+    },
+    {
+      "id": "SD003",
+      "category": "security_deposit",
+      "question": "How much can my landlord charge for a security deposit in the first year?",
+      "expected_answer": "No more than two months rent",
+      "actual_answer": "**Your landlord can charge up to two months' rent as a security deposit during your first year of tenancy.**\n\nPennsylvania law sets a clear limit on security deposits. According to PA Landlord Tenant Act Section 511.1, security deposits during the first year of any lease cannot exceed two months' rent.\n\n**Here's how to calculate your maximum:**\n- If your rent is $1,000/month \u2192 maximum deposit is $2,000\n- If your rent is $1,500/month \u2192 maximum deposit is $3,000\n\n**Important to know:** After your first year, the limit drops to one month's rent.\n\n**Next steps:**\n1. Calculate two times your monthly rent\n2. Compare that to what your landlord is asking\n3. If they're asking for more, point them to Section 511.1 of the PA Landlord Tenant Act\n4. Keep a copy of your lease and any deposit receipts\n\n**What I cannot tell you:** The legal sources provided don't explain what remedies are available if a landlord has already collected more than the legal limit. If that's your situation, you may want to consult with a tenant rights organization or attorney for guidance on recovering the excess amount.\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 19.73,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states the two-month limit for the first year, accurately cites PA Landlord Tenant Act Section 511.1, and while it adds helpful context (examples, the one-month limit after first year), these are reasonable extensions of the law rather than fabricated facts."
+      }
+    },
+    {
+      "id": "EV001",
+      "category": "eviction_and_notice",
+      "question": "How much notice does my landlord need to give before evicting me?",
+      "expected_answer": "15 days for leases one year or less, 30 days for leases over one year, 10 days for non-payment of rent",
+      "actual_answer": "**Your landlord must give you written notice before evicting you, with the required time depending on your lease length and the reason for eviction.**\n\nAccording to PA Landlord Tenant Act Section 501, the minimum notice periods are:\n\n- **10 days** if you're being evicted for non-payment of rent\n- **15 days** if your lease is one year or less (for other reasons)\n- **30 days** if your lease is more than one year (for other reasons)\n\n**Important:** These are the *statutory minimums*. Your lease may require longer notice periods, so check your rental agreement.\n\n**If you're being evicted for non-payment of rent:** Section 503 says you can stop the eviction at any time before the sheriff executes the writ of possession by paying all back rent plus court costs.\n\n**What to do next:**\n1. Review any notice you've received\u2014is it written? Does it give the required number of days?\n2. Check your lease for any notice provisions\n3. Note that even after notice, your landlord must still go through the court process before you can be removed\u2014they cannot simply lock you out\n\nThe legal sources I have don't cover all eviction scenarios in detail, so if your situation involves lease violations or other specific circumstances, additional rules may apply.\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 26.74,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states all three notice periods (10, 15, and 30 days) matching the expected answer, cites the correct source (PA Landlord Tenant Act Section 501), and the additional information about Section 503 and the court process appears to be legitimate procedural information rather than hallucination."
+      }
+    },
+    {
+      "id": "EV002",
+      "category": "eviction_and_notice",
+      "question": "Can I stop an eviction after it has been filed?",
+      "expected_answer": "Yes, by paying all rent in arrears plus court costs before the writ of possession is executed",
+      "actual_answer": "# Can You Stop an Eviction After It's Been Filed?\n\n**Yes, if your eviction is solely for non-payment of rent, you can stop it even after it's been filed\u2014but you must act before the sheriff or constable physically removes you.**\n\n## What Pennsylvania Law Says\n\nUnder PA Landlord Tenant Act Section 503, you can stop a non-payment eviction \"at any time before a writ of possession is executed\" by paying **all rent owed plus court costs** to the constable or sheriff handling your case.\n\n## Important Limitations\n\n- **Only for non-payment evictions**: If you're being evicted for lease violations *in addition to* unpaid rent, this right may not apply\u2014the law requires the eviction be \"solely\" for non-payment\n- **Full payment required**: You must pay everything owed; partial payment won't stop the process\n- **Pay the right person**: Payment goes to the constable or sheriff, not the landlord or court\n\n## Your Next Steps\n\n1. **Contact the court immediately** to find out where your case stands and whether a writ has been issued\n2. **Get the exact amount** of rent owed plus court costs\n3. **Identify the constable or sheriff** assigned to your case\n4. **Pay the full amount** before physical removal occurs\n\nTime may be shorter than you think once a case is filed\u2014act today, not tomorrow.\n\n**I am not a lawyer and this is not legal advice.**",
+      "latency_seconds": 25.0,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states that eviction can be stopped by paying rent arrears plus court costs before the writ of possession is executed, accurately cites PA Landlord Tenant Act Section 503, and all additional details about the 'solely for non-payment' limitation and payment to the constable are reasonable elaborations consistent with the statute rather than fabricated legal facts."
+      }
+    },
+    {
+      "id": "HA001",
+      "category": "habitability_and_repairs",
+      "question": "Is my landlord required to provide heat?",
+      "expected_answer": "Yes, landlords must maintain rental units in habitable condition including working heat",
+      "actual_answer": "**Yes, your landlord is legally required to provide working heat in Pennsylvania.**\n\nAccording to the PA Attorney General Tenant Rights Guide, landlords must maintain rental units in \"habitable condition,\" which explicitly includes providing working heat, along with hot water and electricity.\n\n**What this means for you:**\n- Your landlord must ensure the heating system in your unit functions properly\n- If your heat isn't working, your landlord has a legal obligation to repair it\n\n**Important limitations:** The legal sources I reviewed don't specify details about who pays for heating fuel/utilities (check your lease), specific temperature requirements, or repair timelines. Your lease terms may affect how this obligation works in practice.\n\n**Next steps if you don't have heat:**\n1. Notify your landlord in writing immediately (email or text creates a record)\n2. Document the problem with photos and temperature readings\n3. Keep copies of all communications\n4. If your landlord doesn't respond, contact your local code enforcement office or a tenant rights organization like Neighborhood Legal Services PA for guidance on remedies\n\n**I am not a lawyer and this is not legal advice.**",
+      "latency_seconds": 20.34,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states landlords must provide working heat as part of habitability requirements, accurately cites the PA Attorney General Tenant Rights Guide, and appropriately acknowledges limitations without inventing additional legal requirements."
+      }
+    },
+    {
+      "id": "LE001",
+      "category": "landlord_entry",
+      "question": "Can my landlord enter my apartment without telling me?",
+      "expected_answer": "No, landlord must give at least 24 hours notice except in emergencies",
+      "actual_answer": "# Can My Landlord Enter Without Notice?\n\n**Generally, no \u2014 your landlord should not enter your apartment without your permission or advance notice.**\n\n## What Pennsylvania Guidance Says\n\nAccording to the Neighborhood Legal Services PA Tenant Handbook, you are entitled to \"peaceful use and quiet enjoyment\" of your rental property. This means:\n\n- **For routine matters:** Your landlord should not come onto the property without your permission\n- **For repairs:** Your landlord should give you at least 24 hours notice before entering\n- **For emergencies:** Your landlord *can* enter without notice for genuine emergencies like burst pipes or activated smoke detectors\n\n## Important Limitations\n\nThe guidance uses \"should not\" rather than \"cannot,\" and specifically notes **\"unless your lease says otherwise.\"** This means:\n- Your lease may grant your landlord broader entry rights\n- Review your specific lease for any entry provisions you agreed to\n\n## Your Next Steps\n\n1. **Read your lease carefully** \u2014 look for sections about landlord access or entry\n2. **Document any unauthorized entries** \u2014 note dates, times, and circumstances\n3. **Communicate in writing** if you want to remind your landlord about notice expectations\n4. **Contact a local tenant rights organization** if entries continue without notice \u2014 they can review your specific lease and situation\n\nFor free legal help, contact Neighborhood Legal Services or your local legal aid office.\n\n**I am not a lawyer and this is not legal advice.**",
+      "latency_seconds": 23.96,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states landlords should give 24 hours notice except for emergencies, properly cites the Neighborhood Legal Services PA Tenant Handbook, and appropriately notes the nuance that Pennsylvania lacks a strict statutory requirement while accurately representing what the handbook guidance says."
+      }
+    },
+    {
+      "id": "RT001",
+      "category": "tenant_retaliation",
+      "question": "Can my landlord evict me for joining a tenant association?",
+      "expected_answer": "No, retaliation for participating in tenant organizations is prohibited",
+      "actual_answer": "# Can My Landlord Evict Me for Joining a Tenant Association?\n\n**No, your landlord cannot legally evict you for joining a tenant association.** Pennsylvania law specifically protects this activity.\n\n## What the Law Says\n\nUnder **PA Landlord Tenant Act Section 205**, a landlord cannot terminate or refuse to renew a lease because a tenant participates in a tenant organization or association. Retaliation for tenant organizing is explicitly prohibited.\n\n## Important Limitations\n\nWhile you're protected from retaliation, there are practical realities to understand:\n\n- **You would need to prove causation**: If your landlord claims another reason for eviction (like non-payment or a lease violation), you'd need to show the *real* reason was your organizing activity\n- **Timing alone isn't proof**: An eviction happening after you join an association doesn't automatically mean it's retaliatory\n- **Retaliation is a defense you must raise**: If eviction proceedings begin, you'd need to affirmatively argue the retaliation defense\n\n## Concrete Next Steps\n\n1. **Document everything**: Note when you joined the association and save any communications from your landlord about it\n2. **Watch for warning signs**: Threats, sudden lease enforcement that wasn't applied before, or pretextual complaints\n3. **Keep paying rent and following your lease**: Don't give your landlord a legitimate reason to act\n4. **Contact your tenant association**: They likely have experience with these situations\n\n**I am not a lawyer and this is not legal advice.**",
+      "latency_seconds": 26.83,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states that landlords cannot evict tenants for joining tenant associations due to retaliation protections, cites the correct statute (PA Landlord Tenant Act Section 205), and the additional practical information about proving retaliation and documentation is reasonable general legal context rather than fabricated facts."
+      }
+    },
+    {
+      "id": "GR001",
+      "category": "general_rights",
+      "question": "Can my landlord charge me extra for having a guest stay over?",
+      "expected_answer": "No, landlords cannot charge fees for tenants exercising their right to invite guests",
+      "actual_answer": "**No, your landlord cannot charge you extra for having a guest stay over.**\n\nPennsylvania law is clear on this. Under PA Landlord Tenant Act Section 504-A, you have the right to invite guests, family, and visitors to your unit, and landlords are prohibited from charging fees or additional rent for you exercising this right.\n\n**What you can do:**\n- Decline to pay any guest fee\n- If you've already paid, request a refund in writing\n- Keep records of any fees charged or demands made\n\n**One important caveat:** This protection applies to temporary guests. If your landlord argues that your \"guest\" has essentially moved in\u2014sleeping there every night, receiving mail, storing all their belongings\u2014they might claim this person is now an occupant, not a guest. Lease terms about additional occupants could then apply. The legal context I have doesn't define exactly when a guest becomes an occupant, so if your situation involves someone staying long-term, you may want to consult a tenant rights organization for guidance on your specific circumstances.\n\n**Next steps:** If your landlord insists on charging you for a temporary guest, send them a written letter citing Section 504-A of the PA Landlord Tenant Act and stating you won't pay an unlawful fee.\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 23.76,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states landlords cannot charge guest fees, accurately cites PA Landlord Tenant Act Section 504-A, and the caveat about long-term guests potentially becoming occupants is a reasonable legal distinction rather than a hallucination."
+      }
+    },
+    {
+      "id": "SD004",
+      "category": "security_deposit",
+      "question": "Does my landlord have to pay interest on my security deposit?",
+      "expected_answer": "Yes, after the second year if the deposit is over 100 dollars it must be placed in an interest bearing account",
+      "actual_answer": "# Does My Landlord Have to Pay Interest on My Security Deposit?\n\n**Yes, but only if you've been a tenant for more than two years and your deposit is over $100.**\n\n## What Pennsylvania Law Says\n\nUnder PA Landlord Tenant Act Section 511.2, landlords must place security deposits over $100 in an interest-bearing bank account after your second year of tenancy. The law specifies:\n\n- **Years 1-2:** Interest belongs to the landlord\n- **After Year 2:** You are entitled to the interest\n- **Notice required:** Your landlord must tell you in writing the bank name, address, and deposit amount\n\n## Important Limitations\n\nThe legal sources I have don't specify what happens if your landlord *failed* to put your deposit in an interest-bearing account as required, or exactly how the interest should be paid to you. This creates some enforcement uncertainty\u2014if your landlord returned your deposit but not the interest, it's unclear whether existing remedies (like the double-deposit penalty for wrongful withholding) would apply.\n\n## Your Next Steps\n\n1. **Check your tenancy length**\u2014if under two years, no interest is owed yet\n2. **Review your records** for any written notice about where your deposit is held\n3. **Request the interest in writing** if you qualify\n4. **If your landlord refuses**, consider consulting a tenant rights organization or attorney about enforcement options\n\n**I am not a lawyer and this is not legal advice.**",
+      "latency_seconds": 28.57,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states that interest is required after two years for deposits over $100, cites the correct statute (Section 511.2), and appropriately acknowledges limitations in knowledge rather than inventing facts about enforcement mechanisms."
+      }
+    },
+    {
+      "id": "SD005",
+      "category": "security_deposit",
+      "question": "My landlord deducted money from my deposit for normal wear and tear. Is that legal?",
+      "expected_answer": "No, landlords cannot deduct for normal wear and tear, only for actual damages caused by the tenant beyond normal use",
+      "actual_answer": "**No, your landlord generally cannot deduct for normal wear and tear** \u2014 though I should be upfront that the specific law provided to me doesn't explicitly say this in those exact words.\n\n## What the Law Does Say\n\nUnder PA Landlord Tenant Act Section 512, your landlord has the burden of proving \"actual damages\" to justify withholding any portion of your deposit. This language suggests deductions must be for genuine damage beyond routine deterioration from normal use.\n\n**Important procedural requirements:**\n- Your landlord must provide a written itemized list of damages within 30 days\n- If they failed to do this, they forfeit all rights to withhold anything\n- These protections only apply if you provided your forwarding address in writing\n\n## What You Should Do\n\n1. **Check the timeline** \u2014 Did you receive a written itemization within 30 days of moving out?\n2. **Confirm you gave your new address in writing** \u2014 Without this, the landlord's 30-day obligation isn't triggered\n3. **Request specifics** \u2014 Ask the landlord to identify what specific \"damage\" they claim, since they bear the burden of proof\n4. **Know your remedy** \u2014 If your landlord wrongfully withheld funds, you may be entitled to double the amount withheld\n\nIf the landlord can't prove actual damage beyond normal use, you have grounds to dispute the deduction in small claims court.\n\n---\n\n*I am not a lawyer and this is not legal advice.*",
+      "latency_seconds": 26.84,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states landlords cannot deduct for normal wear and tear, cites PA Landlord Tenant Act Section 512 which is a real and relevant source (equivalent authority to the AG guide), and all legal facts stated (actual damages standard, 30-day itemization, double damages remedy) are accurate under PA law without fabrication."
+      }
+    },
+    {
+      "id": "SD006",
+      "category": "security_deposit",
+      "question": "I never gave my landlord a forwarding address. Does that affect my right to get my deposit back?",
+      "expected_answer": "Yes, failure to provide a forwarding address in writing relieves the landlord of the 30 day return obligation",
+      "actual_answer": "**Yes, not providing a forwarding address in writing affects your ability to enforce the 30-day return deadline and claim penalties.**\n\nUnder Pennsylvania's Landlord Tenant Act Section 512, the landlord's obligation to return your deposit within 30 days is only triggered once you provide a forwarding address in writing. Without it, the landlord is \"relieved from any liability under the security deposit return requirements\" for that timeline.\n\n**However, this doesn't mean you lose your deposit.** The law relieves the landlord from the *timing requirements and penalties*\u2014not from the underlying obligation to eventually return money they're not entitled to keep. The legal context doesn't fully address what happens if you never provide an address, or whether landlords have any duty to request one from you.\n\n**What you should do now:**\n1. Send your forwarding address to your landlord **in writing immediately**\u2014this starts the 30-day clock\n2. Use certified mail or another method that creates proof of delivery\n3. Keep a copy for your records\n4. If the landlord doesn't return the deposit (or a written list of damages) within 30 days *after receiving your address*, you may be entitled to double the amount wrongfully withheld\n\n**Note:** There may be additional legal protections not covered in the sources I reviewed. Consider consulting a tenant rights organization if your landlord refuses to return the deposit after you provide your address.\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 27.14,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states that failing to provide a forwarding address in writing relieves the landlord of the 30-day obligation, accurately cites PA Landlord Tenant Act Section 512, and while it provides additional practical guidance about what happens next, this elaboration is reasonable legal interpretation rather than fabricated facts."
+      }
+    },
+    {
+      "id": "EV003",
+      "category": "eviction_and_notice",
+      "question": "My landlord changed the locks without going through court. Is that legal?",
+      "expected_answer": "No, a landlord cannot lock out a tenant without going through the formal eviction process through the courts",
+      "actual_answer": "# Can My Landlord Change the Locks Without Going to Court?\n\n**Based on the Pennsylvania law I was provided, changing locks to force you out without following the formal eviction process appears to bypass required legal procedures\u2014but I must be honest that the specific passages I have don't explicitly address lock-changing.**\n\n## What the Law Does Say\n\nPennsylvania's Landlord Tenant Act requires landlords to:\n- **Provide written notice** before evicting a tenant (10-30 days depending on your situation) \u2014 Section 501\n- Follow a court process that results in a **\"writ of possession\"** being executed \u2014 Section 503\n\nThis structure strongly suggests landlords must go through the courts, not take matters into their own hands.\n\n## Important Limitations\n\nThe legal context I was given doesn't specify:\n- Explicit penalties for lock-changing\n- Your specific remedies (like getting back in or recovering damages)\n- Whether your landlord might claim you abandoned the property\n\n## Your Next Steps\n\n1. **Document everything** \u2014 photograph the changed locks, save any communications\n2. **Contact a tenant rights organization** \u2014 they can confirm Pennsylvania's self-help eviction rules\n3. **Consider calling local police** \u2014 some jurisdictions will intervene in illegal lockouts\n4. **Consult an attorney** \u2014 especially if you need to recover belongings or seek damages\n\n**I am not a lawyer and this is not legal advice.**",
+      "latency_seconds": 27.92,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 0,
+        "hallucination_free": 1,
+        "reasoning": "The system correctly concludes that landlords cannot bypass the court eviction process and must follow formal procedures, but it cites generic sections of the Landlord Tenant Act rather than the expected source (Neighborhood Legal Services PA Tenant Handbook), and appropriately hedges where its source material was incomplete rather than fabricating information."
+      }
+    },
+    {
+      "id": "EV004",
+      "category": "eviction_and_notice",
+      "question": "Can my landlord evict me in the winter?",
+      "expected_answer": "Pennsylvania law does not prohibit evictions during winter months \u2014 eviction timelines apply year round",
+      "actual_answer": "**Based on the legal materials provided to me, I cannot definitively answer whether Pennsylvania prohibits winter evictions.** The statutes I was given cover eviction notice requirements and payment procedures, but contain no information about seasonal restrictions.\n\n## What the Provided Law Does Cover\n\n**Notice requirements before any eviction** (PA Landlord Tenant Act Section 501):\n- 10 days notice for non-payment of rent\n- 15 days notice for leases of one year or less\n- 30 days notice for leases over one year\n\n**Stopping a non-payment eviction** (Section 503): You can halt an eviction for unpaid rent anytime before the sheriff executes the writ of possession by paying all back rent plus court costs.\n\n## What I Cannot Tell You\n\nThe legal context I was given does not address:\n- Whether Pennsylvania has a statewide winter eviction moratorium\n- Any seasonal restrictions on when evictions can occur\n- Weather-related limitations on eviction proceedings\n\n## Your Next Steps\n\n1. **Contact Pennsylvania Legal Aid** (1-800-322-7572) for information about winter eviction protections\n2. **Check your local municipality's rules**\u2014some Pennsylvania cities have their own winter eviction restrictions not covered in state law\n3. **If you're facing eviction now**, the notice and reinstatement rights above still apply regardless of season\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 23.62,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The system correctly indicates that the PA Landlord Tenant Act Section 501 covers eviction notice requirements without seasonal restrictions, which aligns with the expected answer that evictions apply year-round; while the system frames this as uncertainty about what it can confirm, the practical implication is accurate that no winter prohibition exists in the cited law."
+      }
+    },
+    {
+      "id": "AP001",
+      "category": "general_rights",
+      "question": "I moved out and left some furniture behind. What can my landlord do with it?",
+      "expected_answer": "The landlord must send written notice giving the tenant 10 days to retrieve property or request storage of up to 30 days. A landlord who disposes of property without notice is liable for triple damages.",
+      "actual_answer": "Your landlord cannot immediately dispose of your furniture\u2014they must first send you written notice and give you time to retrieve it.\n\n**What Pennsylvania law requires (PA Landlord Tenant Act Section 505.1):**\n\n- Your landlord must send you **written notice** before disposing of anything you left behind\n- You have **10 days from the postmark date** on that notice to either pick up your furniture or request storage\n- If you request storage, the landlord must keep your items for **up to 30 days** at a location they choose\n- You're responsible for storage costs\n\n**Important limitations to know:**\n\nThe law is clear on the notice requirement, but some practical details are less certain\u2014such as what counts as reasonable storage fees or whether the landlord can charge for moving items before storage begins. If disputes arise, these details might require legal help to resolve.\n\n**If your landlord already threw out your furniture without sending written notice first**, the statute says they may be liable for **triple damages**, though proving this and recovering money would likely require going to court.\n\n**Your next steps:**\n\n1. Contact your landlord immediately to arrange pickup\n2. If you received a notice, check the postmark\u2014you have 10 days from that date\n3. If items were disposed of without notice, document everything and consider consulting a lawyer\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 25.21,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states the 10-day notice requirement, 30-day storage option, and triple damages for improper disposal, accurately cites PA Landlord Tenant Act Section 505.1, and does not fabricate any legal facts beyond the expected answer."
+      }
+    },
+    {
+      "id": "AP002",
+      "category": "general_rights",
+      "question": "How long does my landlord have to store my belongings after I move out?",
+      "expected_answer": "If the tenant requests it within 10 days of the notice, the landlord must store property for up to 30 days at a location of the landlords choosing. The tenant is responsible for storage costs.",
+      "actual_answer": "# How Long Your Landlord Must Store Your Belongings\n\n**If you request storage, your landlord must keep your belongings for up to 30 days.**\n\n## What Pennsylvania Law Requires\n\nUnder PA Landlord Tenant Act Section 505.1, here's the process when you leave property behind:\n\n1. **Your landlord must send written notice** before disposing of anything\n2. **You have 10 days from the postmark date** to either retrieve your belongings or request storage\n3. **If you request storage**, the landlord must retain your property for up to 30 days at a location they choose\n4. **You are responsible for storage costs**\n\n## Important Caveats\n\nThe phrase \"up to 30 days\" means the landlord has some discretion\u2014they're not necessarily required to store items for the full 30 days. The law also doesn't clearly specify when that 30-day period starts running, which could affect how much time you actually have.\n\n## Your Next Steps\n\n- **Act quickly** when you receive written notice\u2014your 10-day window starts from the postmark date\n- **Request storage in writing** to create a clear record\n- **Arrange pickup promptly** and budget for storage costs\n- **Know your remedy**: If your landlord disposes of your property without proper notice, they may be liable for triple damages under Section 505.1\n\n---\n\n*I am not a lawyer and this is not legal advice.*",
+      "latency_seconds": 22.23,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly states the 10-day request window and 30-day storage period with tenant paying costs, accurately cites PA Landlord Tenant Act Section 505.1, and the additional details about triple damages and written notice requirements are consistent with the statute rather than fabricated."
+      }
+    },
+    {
+      "id": "LE002",
+      "category": "lease_terms",
+      "question": "Can my landlord ban me from having pets?",
+      "expected_answer": "Yes, landlords can generally prohibit pets in the lease. However if you have a disability and need an emotional support animal you may request a reasonable accommodation and the landlord cannot charge extra pet fees for that animal.",
+      "actual_answer": "**Based on the legal sources provided, I cannot give you a definitive answer about pet bans because these passages don't specifically address pet policies.**\n\nHere's what I can tell you from the context:\n\n**What the sources cover:**\n- You have the right to \"peaceful use and quiet enjoyment\" of your rental property (Neighborhood Legal Services PA Tenant Handbook)\n- You can invite guests, family, visitors, and service providers without extra fees (PA Landlord Tenant Act Section 504-A)\n\n**What's missing from these sources:**\n- Whether landlords can include no-pet clauses in leases\n- Rules about pet deposits or fees\n- Protections for service animals or emotional support animals (which are typically protected under federal Fair Housing law, but that's not in the materials I was given)\n\n**Your next steps:**\n1. **Check your lease** \u2014 it likely addresses pets directly\n2. **If you have a disability**, know that service animals and emotional support animals may be protected regardless of pet policies (contact a fair housing organization about this)\n3. **Contact a local tenant rights organization** like Neighborhood Legal Services for guidance specific to your situation\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 23.19,
+      "scores": {
+        "answer_correct": 0,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The system correctly cites Neighborhood Legal Services PA Tenant Handbook and mentions disability accommodations exist, but fails to actually answer the question (that landlords CAN ban pets) despite this being answerable from the expected source, instead claiming insufficient information."
+      }
+    },
+    {
+      "id": "LE003",
+      "category": "lease_terms",
+      "question": "My landlord wants to add new rules mid-lease. Can they do that?",
+      "expected_answer": "Generally no \u2014 the terms of your lease are fixed for the lease period. New rules or changes typically cannot be imposed until lease renewal unless you agree to them in writing.",
+      "actual_answer": "**Generally, a landlord cannot unilaterally add new rules that change the terms of your existing lease without your consent.**\n\nHowever, I must be upfront: the legal context I was provided doesn't include Pennsylvania statutes that directly address mid-lease rule changes. Here's what I *can* tell you based on the available information:\n\n**What the law does protect:** Pennsylvania law establishes certain tenant rights that cannot be restricted by landlord action. For example, Section 504-A guarantees your right to have \"guests, family, visitors, tradespeople and service providers\" in your unit, and states a landlord \"cannot charge fees or additional rent\" for exercising these rights. Any new rule attempting to limit these protected rights would be unenforceable.\n\n**What remains unclear from this context:** Whether other types of new rules (parking policies, quiet hours, etc.) require your consent depends on general Pennsylvania contract law principles and your specific lease language\u2014topics not covered in the materials I have.\n\n**Your next steps:**\n- Review your lease for any clause about rule modifications\n- Ask your landlord to show you in writing where the lease permits mid-lease changes\n- Contact a Pennsylvania tenant rights organization or legal aid office for guidance specific to your situation\n- Document any new rules in writing and your response\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 24.82,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 0,
+        "hallucination_free": 1,
+        "reasoning": "The system correctly states landlords generally cannot unilaterally add new rules mid-lease, matching the expected answer's conclusion, but it cites Section 504-A rather than the PA Attorney General Tenant Rights Guide, and while 504-A appears to be a real statute, it's not the expected source for this specific question."
+      }
+    },
+    {
+      "id": "MX001",
+      "category": "landlord_entry",
+      "question": "My landlord entered without notice and also kept my security deposit. What are my rights on both issues?",
+      "expected_answer": "For unauthorized entry you are entitled to quiet enjoyment and the landlord should have given 24 hours notice. For the deposit the landlord must return it within 30 days with a written damage list or forfeit the right to withhold it and owe you double the amount.",
+      "actual_answer": "**For your security deposit:** You may be entitled to get your full deposit back\u2014potentially doubled\u2014if your landlord didn't follow Pennsylvania's rules.\n\nPennsylvania law requires landlords to return your security deposit within 30 days of lease termination and provide a written list of any damages. If they fail to provide this itemized list within 30 days, they forfeit the right to keep any portion. If they wrongfully withhold the deposit, they may owe you double the amount (PA Landlord Tenant Act Section 512).\n\n**Important:** This protection only applies if you gave your landlord your new address in writing. Without that, the landlord may be relieved of these obligations. Keep any proof you have of providing your forwarding address\u2014texts, emails, or certified mail receipts.\n\n**For the entry without notice:** I cannot advise you on this issue. The legal materials available to me only cover security deposits and don't address landlord entry requirements or tenant privacy rights. You should contact a local tenant rights organization or consult the full Pennsylvania Landlord Tenant Act for guidance on unauthorized entry.\n\n**Next steps:**\n1. Document when your lease ended and when you provided your forwarding address\n2. Check if 30 days have passed since both events\n3. If so, send a written demand for the deposit, then consider small claims court if needed\n4. For the entry issue, contact a local legal aid organization\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 28.84,
+      "scores": {
+        "answer_correct": 0,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The security deposit portion is correct with proper citation to PA Landlord Tenant Act Section 512, but the system explicitly refused to answer the unauthorized entry question despite the expected answer showing this is within scope (quiet enjoyment, 24-hour notice requirement), making the overall answer incomplete."
+      }
+    },
+    {
+      "id": "MX002",
+      "category": "eviction_and_notice",
+      "question": "My landlord is trying to evict me right after I complained about mold. Could this be retaliation?",
+      "expected_answer": "Yes this could be illegal retaliation. Pennsylvania law prohibits landlords from evicting or retaliating against tenants for exercising their legal rights including complaining about habitability issues. The court should refuse to evict and may award damages.",
+      "actual_answer": "## Answer\n\n**Yes, this could be retaliation, but I cannot give you a definitive answer based on the legal sources available to me.**\n\nHere's what I can tell you: Pennsylvania law clearly prohibits landlords from retaliating against tenants for participating in tenant organizations (PA Landlord Tenant Act Section 205). However, the legal materials I have access to don't specifically address whether Pennsylvania protects tenants who complain about repair issues like mold.\n\n**The timing you describe\u2014eviction right after a mold complaint\u2014is exactly the pattern that retaliation laws typically target.** Pennsylvania likely has broader protections than what my sources cover, but I cannot confirm this without access to the full statute.\n\n**What you should do now:**\n\n1. **Document everything**: Write down when you complained about the mold, how you complained (text, email, verbal), and when you received the eviction notice\n2. **Contact legal aid immediately**: Organizations like Pennsylvania Legal Aid Network or your local legal aid office can review whether your situation falls under Pennsylvania's full retaliation protections\n3. **Do not ignore the eviction notice**\u2014you still need to respond within required deadlines while you seek help\n\nThe suspicious timing here is significant and worth pursuing with someone who can access Pennsylvania's complete tenant protection laws.\n\n**I am not a lawyer and this is not legal advice.**",
+      "latency_seconds": 26.0,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 0,
+        "hallucination_free": 1,
+        "reasoning": "The answer correctly identifies this as potential illegal retaliation and provides appropriate advice, but cites PA Landlord Tenant Act Section 205 rather than the expected Neighborhood Legal Services PA Tenant Handbook source, and hedges more than necessary about Pennsylvania's retaliation protections."
+      }
+    },
+    {
+      "id": "UK001",
+      "category": "general_rights",
+      "question": "Can I sublet my apartment to someone else?",
+      "expected_answer": "It depends on your lease. Pennsylvania law allows landlords to restrict subletting in the lease agreement. You should check your lease before subletting.",
+      "actual_answer": "**The provided legal sources don't directly address subletting, so I cannot give you a definitive answer based on this context alone.**\n\nHere's what I can tell you: The legal materials I have cover guest rights, security deposits, and habitability requirements\u2014but none specifically address whether you can sublet your apartment in Pennsylvania.\n\n**What this likely means for you:**\n\nSubletting rules are typically governed by your lease agreement rather than state law. Pennsylvania doesn't appear to have a statutory ban on subletting, which suggests it may be permitted unless your lease specifically prohibits it.\n\n**Your concrete next steps:**\n\n1. **Read your lease carefully** \u2014 Look for any clauses about subletting, assignment, or unauthorized occupants. Many leases require written landlord approval before subletting.\n\n2. **If your lease is silent on subletting**, you may have the right to sublet, but getting written permission from your landlord is still advisable to avoid disputes.\n\n3. **If your lease prohibits subletting**, violating this could be grounds for eviction, so consider negotiating with your landlord or consulting a tenant rights organization.\n\n4. **Contact a local legal aid organization** \u2014 They can review your specific lease and provide guidance tailored to your situation.\n\n*Sources consulted: PA Landlord Tenant Act Sections 504-A and 511.1; PA Attorney General Tenant Rights Guide (none directly applicable to subletting).*\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 24.52,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The system correctly advises that subletting depends on the lease and that Pennsylvania allows landlords to restrict it, matching the expected answer; it appropriately cites the PA Attorney General Tenant Rights Guide (even noting it wasn't directly applicable), and avoids fabricating any legal facts by honestly acknowledging the limitation of its sources."
+      }
+    },
+    {
+      "id": "UK002",
+      "category": "general_rights",
+      "question": "What is the maximum late fee my landlord can charge?",
+      "expected_answer": "I don't have enough information in my current knowledge base to answer this precisely. Pennsylvania law does not specify a statewide cap on late fees \u2014 the amount is typically governed by your lease agreement. I recommend contacting a local legal aid organization.",
+      "actual_answer": "**I cannot give you a specific maximum late fee amount because the Pennsylvania legal sources I have access to do not address late fees.**\n\nI reviewed the Pennsylvania Landlord and Tenant Act sections available to me, which cover guest rights, eviction notice requirements, and security deposit limits\u2014but none of these mention late fee caps or regulations.\n\n**What this likely means for you:**\n- Pennsylvania may not have a specific statutory cap on late fees\n- Your lease agreement terms would be important to review\n- General contract law principles about \"reasonable\" fees may apply\n\n**Your next steps:**\n1. **Check your lease** - Late fee terms should be spelled out there\n2. **Contact Pennsylvania tenant resources:**\n   - Pennsylvania Housing Finance Agency: (717) 780-3800\n   - Your local legal aid office for free guidance\n   - Community Legal Services if you're in Philadelphia\n3. **If a fee seems excessive**, document it and ask a tenant rights organization whether it may be considered unreasonable under Pennsylvania law\n\nI want to be upfront: I'm not saying Pennsylvania has no rules on late fees\u2014I simply don't have that information in my current sources and won't guess.\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 24.05,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 0,
+        "hallucination_free": 1,
+        "reasoning": "The system correctly identifies that PA lacks a statutory late fee cap and appropriately defers to lease terms and legal aid, matching the expected answer's substance, but provides no citation to the PA Attorney General Tenant Rights Guide as expected."
+      }
+    },
+    {
+      "id": "HA002",
+      "category": "habitability_and_repairs",
+      "question": "My landlord refuses to fix a mold problem. What can I do?",
+      "expected_answer": "Landlords are required to maintain habitable conditions. You should document the mold in writing, send a written repair request to your landlord, and contact local housing authorities or a legal aid organization if they refuse to act.",
+      "actual_answer": "# Mold Problems in Your Rental\n\n**Pennsylvania landlords are required to maintain rental units in habitable condition, but the legal sources I have don't specifically address mold or tell me what remedies are available to you.**\n\n## What the Law Says\n\nAccording to the PA Attorney General Tenant Rights Guide, landlords must keep units \"weatherproof and structurally safe.\" If your mold is caused by water intrusion, leaks, or dampness from structural problems, this duty likely applies. However, the sources I have don't clarify whether mold itself triggers specific protections, what notice you must give your landlord, or what actions you can legally take if they refuse repairs.\n\n**Important:** Landlords may argue differently if mold results from tenant behavior (like poor ventilation) rather than building problems.\n\n## Recommended Next Steps\n\n1. **Document everything** in writing\u2014photograph the mold, send written repair requests to your landlord, and keep copies\n2. **Contact your local housing code enforcement office**\u2014they can inspect and may have specific mold standards\n3. **Reach out to a tenant rights organization** such as [Neighborhood Legal Services](https://www.nls.org) or your local legal aid office for guidance on Pennsylvania-specific remedies\n\nI cannot tell you from these sources whether you can withhold rent, make repairs yourself, or break your lease\u2014those answers require more specific legal guidance than I have here.\n\n**I am not a lawyer and this is not legal advice.**",
+      "latency_seconds": 25.87,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The system correctly states landlords must maintain habitable conditions, recommends documenting in writing, sending written repair requests, and contacting housing authorities or legal aid\u2014all matching the expected answer\u2014while appropriately acknowledging limitations and citing the PA Attorney General Tenant Rights Guide."
+      }
+    },
+    {
+      "id": "RT002",
+      "category": "tenant_retaliation",
+      "question": "My landlord raised my rent right after I reported a code violation. Is this retaliation?",
+      "expected_answer": "It may be illegal retaliation. Pennsylvania law prohibits landlords from retaliating against tenants for exercising their legal rights including reporting code violations. If you can show the rent increase followed your complaint the court may find retaliation.",
+      "actual_answer": "**I cannot give you a definitive answer based on the legal sources I have available.**\n\nHere's why: The Pennsylvania statutes I was provided only address retaliation for participating in tenant organizations (PA Landlord Tenant Act Section 205). This is a narrower protection than what you're asking about\u2014retaliation for reporting code violations.\n\n**What the law I have says:**\nSection 205 prohibits landlords from terminating or refusing to renew a lease because a tenant participates in a tenant organization. However, this specific provision doesn't cover your situation of reporting code violations.\n\n**What this means for you:**\nPennsylvania likely has additional retaliation protections that cover reporting health and safety violations\u2014most states do\u2014but those statutes weren't in the materials I reviewed. I don't want to guess about protections I can't verify.\n\n**Your next steps:**\n1. Contact a Pennsylvania tenant rights organization or legal aid office who can research the specific retaliation statutes covering code violation reporting\n2. Document everything: when you reported the violation, when you received the rent increase notice, and any communications from your landlord\n3. The timing you describe (rent increase right after reporting) is exactly the kind of evidence that matters in retaliation cases, so preserve those records\n\n**Bottom line:** You may well have legal protection here, but I need you to get accurate information rather than my speculation.\n\nI am not a lawyer and this is not legal advice.",
+      "latency_seconds": 26.4,
+      "scores": {
+        "answer_correct": 0,
+        "citation_accurate": 0,
+        "hallucination_free": 1,
+        "reasoning": "The system fails to confirm that Pennsylvania law does prohibit retaliation for reporting code violations, instead claiming uncertainty and directing the user elsewhere, which is incorrect guidance; it cites only Section 205 about tenant organizations rather than the broader retaliation protections, but it does not fabricate any legal facts."
+      }
+    },
+    {
+      "id": "GR002",
+      "category": "general_rights",
+      "question": "My landlord is threatening to shut off my heat as punishment for being late on rent. Is that legal?",
+      "expected_answer": "No, a landlord cannot shut off utilities as a form of punishment or to force a tenant out. This is sometimes called a self-help eviction and is illegal. The landlord must go through the formal eviction process.",
+      "actual_answer": "# Can Your Landlord Shut Off Your Heat for Late Rent?\n\n**No, your landlord cannot legally shut off your heat as punishment for late rent.** Under Pennsylvania law, landlords are required to maintain rental units in a habitable condition, which explicitly includes providing working heat (PA Attorney General Tenant Rights Guide).\n\nThis habitability requirement doesn't include any exception for late rent payments. Even if you owe money, your landlord must still provide heat.\n\n## What You Should Do\n\n1. **Document the threat** \u2014 Save any texts, emails, or voicemails. If the threat was verbal, write down what was said, when, and any witnesses\n2. **Respond in writing** \u2014 Consider sending a message stating you're aware heat is a legal requirement\n3. **Know the proper process** \u2014 If you're behind on rent, your landlord's legal remedy is through the court eviction process, not shutting off utilities\n\n## Important Context\n\nIf your landlord actually shuts off the heat, that's a more serious violation than a threat alone. The legal context I have doesn't specify the exact penalties or remedies available for utility shutoffs in Pennsylvania, so contacting a local tenant legal aid organization would give you more specific guidance on enforcement options.\n\n**Being late on rent is a separate issue** \u2014 your landlord may pursue eviction through proper legal channels, but cannot bypass the courts by making your home uninhabitable.\n\n*I am not a lawyer and this is not legal advice.*",
+      "latency_seconds": 28.09,
+      "scores": {
+        "answer_correct": 1,
+        "citation_accurate": 1,
+        "hallucination_free": 1,
+        "reasoning": "The system correctly states that landlords cannot shut off utilities as punishment and must use formal eviction processes, cites the PA Attorney General Tenant Rights Guide which matches the expected citation, and does not fabricate any legal facts\u2014it appropriately acknowledges uncertainty about specific penalties rather than inventing them."
+      }
+    }
+  ]
+}

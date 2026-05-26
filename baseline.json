@@ -1,0 +1,7 @@
+{
+    "answer_accuracy_pct": 96.0,
+    "citation_accuracy_pct": 80.0,
+    "hallucination_rate_pct": 4.0,
+    "latency_p50_seconds": 24.15,
+    "latency_p95_seconds": 29.85
+}

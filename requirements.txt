@@ -1,0 +1,12 @@
+anthropic
+fastapi
+uvicorn
+prometheus-client
+chromadb
+sentence-transformers
+langchain
+langgraph
+requests
+beautifulsoup4
+pypdf
+python-dotenv

@@ -1,0 +1,14 @@
+cat > .gitignore << EOF
+.env
+chroma_db/
+venv/
+venv310/
+bin/
+lib/
+include/
+__pycache__/
+*.pyc
+*.so
+*.dylib
+.DS_Store
+EOF

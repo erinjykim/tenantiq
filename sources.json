@@ -1,0 +1,23 @@
+[
+    {
+        "url": "https://www.legis.state.pa.us/cfdocs/legis/LI/uconsCheck.cfm?txtType=HTM&yr=1951&sessInd=0&smthLng=EN&act=0020",
+        "source_name": "PA Landlord Tenant Act 1951",
+        "jurisdiction": "pennsylvania",
+        "category": "statute",
+        "last_verified": "2026-04-08"
+    },
+    {
+        "url": "https://www.attorneygeneral.gov/wp-content/uploads/2022/06/OAG-Consumer-Guide-Tenant-Landlord-Rights-v.13-web-version.pdf",
+        "source_name": "PA Attorney General Tenant Rights Guide",
+        "jurisdiction": "pennsylvania",
+        "category": "guide",
+        "last_verified": "2026-04-08"
+    },
+    {
+        "url": "https://www.nplspa.org/file_download/inline/c388937c-2450-4af9-855d-1aa3c20d2d86",
+        "source_name": "Neighborhood Legal Services PA Tenant Handbook",
+        "jurisdiction": "pittsburgh",
+        "category": "handbook",
+        "last_verified": "2026-04-08"
+    }
+]
